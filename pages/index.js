@@ -1,4 +1,4 @@
-import Header from "../comps/Header";
+import Header from "./src/comps/Header";
 
 function HomePage() {
   return (

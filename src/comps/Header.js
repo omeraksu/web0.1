@@ -1,20 +1,21 @@
 import Link from "next/link";
 import Logo from "./icons/logo";
-import styles from './Header.module.css';
+import styles from "./Header.module.css";
+import Box from "./Box";
 
 const Header = () => {
   return (
-    <div className={styles.nav}>
+    <div>
       <Link href="/">
-        <a className={styles.logo}>
+        <Box>
           <Logo height={20} width={110} />
-        </a>
+        </Box>
       </Link>
       <Link href="/">
-        <a className={styles.link}>Home</a>
+        <a>Home</a>
       </Link>
       <Link href="/about">
-        <a className={styles.link}>About</a>
+        <a>About</a>
       </Link>
     </div>
   );
