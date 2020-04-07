@@ -1,12 +1,12 @@
-import Header from "./src/comps/Header";
+import React from 'react'
+import Header from "../src/comps/Header";
 
-function HomePage() {
+function index() {
   return (
     <div>
       <Header />
-      <h1>Naber Bea?</h1>
     </div>
-  );
+  )
 }
 
-export default HomePage;
+export default index;
